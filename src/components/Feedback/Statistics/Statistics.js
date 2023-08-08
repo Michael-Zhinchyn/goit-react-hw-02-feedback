@@ -1,10 +1,10 @@
-export const Statistics = () => {
+export const Statistics = ({ good, neutral, bad }) => {
   return (
     <>
       <h1>Statistics</h1>
-      <p>Good: </p>
-      <p>Neutral: </p>
-      <p>Bad: </p>
+      <p>Good: {good}</p>
+      <p>Neutral: {neutral}</p>
+      <p>Bad: {bad}</p>
     </>
   );
 };
